@@ -5,7 +5,9 @@ conceito B e de 9,0 a 10,0 o conceito A
 
 function Notas (vet){
    
-vet.forEach(elementos =>{ if(elementos >= 0.0 && elementos <= 4.9){
+vet.forEach(elementos =>{ if(elementos >= 0.0 && elementos <= 4.9)
+    /*forEach() é uma função caback que retorna um resultado para cada elemento de uma variáveol ou array*/
+{
 console.log('D')
 }if(elementos >= 5.0 && elementos <= 6.9){
     console.log('c')
