@@ -4,7 +4,7 @@ function Multi(vetor, multiplicador){
     let resultado1 = []
     vetor.forEach(elemento => {
         resultado1.push(elemento * multiplicador)
-    });
+    })
 
     return resultado1
 }
